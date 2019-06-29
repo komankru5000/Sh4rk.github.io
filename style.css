@@ -1,0 +1,48 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+
+body{
+    background: url("background.jpg")center center fixed;
+    background-size:cover; 
+    font-family: 'Merriweather', serif;
+    
+}
+
+h1{
+    color:#fff;
+    text-shadow:2px 2px 5px rgb(57, 172, 172);
+    position: absolute;
+    left: 50%;
+    top: 30%;
+    text-align: center;
+    transform: translate(-50%, -50%);
+    font-size:3vw;
+    line-height: 1.5;
+}
+
+.buttonman{
+    display: inline-block;
+    border-radius: 30px;
+    background-color: #fa6f44;
+    border:none;
+    color:#fff;
+    text-align: center;
+    font-size: 0.9 rem;
+    font-weight: bold;
+    width:200px;
+    padding:15px;
+    position: absolute;
+    left: 50%;
+    top: 70%;
+    text-align: center;
+    transform: translate(-50%, -50%)
+}
+
+.buttonman:hover {
+    background-color: #f4511e;
+    color:rgb(238, 238, 238);
+    transition: 0.5s;
+  }
+
